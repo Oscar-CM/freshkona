@@ -1,4 +1,27 @@
 const data = {
+  carousels: [
+    {
+      title: 'Most Popular Produce for Sale',
+      buttonCaption: 'Shop Now',
+      image: '/images/banner5.png',
+      url: '/search?category=Vegetables',
+      isPublished: true,
+    },
+    {
+      title: 'Best Sellers in out Catalog',
+      buttonCaption: 'Shop Now',
+      image: '/images/banner6.png',
+      url: '/search?category=Fruits',
+      isPublished: true,
+    },
+    {
+      title: 'Best Deals on our Drinks',
+      buttonCaption: 'See More',
+      image: '/images/banner5.jpg',
+      url: '/search?category=Drinks',
+      isPublished: true,
+    },
+  ],
   headerMenus: [
     {
       name: "Today's Deal",
