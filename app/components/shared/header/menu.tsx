@@ -5,7 +5,10 @@ export default function Menu() {
   return (
     <div className='flex justify-end'>
       <nav className='flex gap-3 w-full'>
-        <Link href='/signin' className='flex items-center header-button'>
+        <Link
+          href='/signin'
+          className='items-center header-button hiddden hidden md:flex'
+        >
           Hello, Guest
         </Link>
 
